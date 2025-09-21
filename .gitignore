@@ -1,2 +1,19 @@
 # Python virtual environment
 venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Environment 
+.env
+
+# Database and local data
+*.sqlite3
+*.db
+*.log
+
+# Alembic migration artifacts
+alembic/versions/__pycache__/
+
+# VSCode and IDE settings
+.vscode/
